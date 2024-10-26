@@ -1,0 +1,66 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.3.4'
+	id 'io.spring.dependency-management' version '1.1.6'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	// JPA
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	// Spring Web
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	// Lombok
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	// H2
+	runtimeOnly 'com.h2database:h2'
+	// Sql server
+	runtimeOnly 'com.microsoft.sqlserver:mssql-jdbc'
+
+	// Testing
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	// JUnit Jupiter API & Engine
+	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+	// Spring Boot Starter Validation
+	implementation 'org.springframework.boot:spring-boot-starter-validation:3.2.5'
+	// Validation Hibernate
+	implementation 'org.hibernate.validator:hibernate-validator:8.0.1.Final'
+
+	// Envers
+	implementation 'org.hibernate.orm:hibernate-envers:6.4.4.Final'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+tasks.jar {
+	enabled = true
+}
+
+bootJar {
+	enabled = true
+}
