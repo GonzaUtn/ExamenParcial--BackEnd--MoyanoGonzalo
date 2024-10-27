@@ -1,4 +1,8 @@
-# Proyecto de Detección de Mutantes
+
+# PARCIAL BACK END - Detección de Mutantes
+# Alumno: Moyano Gonzalo    
+# Legajo: 47600
+# Comision: 3K9
 
 Este proyecto es una aplicación Spring Boot que permite detectar si una secuencia de ADN pertenece a un mutante o a un humano. La aplicación también proporciona estadísticas sobre las secuencias de ADN analizadas.
 
