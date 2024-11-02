@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f7b39931-b07a-414b-bbb4-68f42c89580d)
+
 # PARCIAL BACK END - Detección de Mutantes
 Alumno: Moyano Gonzalo    
 Legajo: 47600
