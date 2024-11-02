@@ -97,6 +97,17 @@ Una secuencia de ADN se considera mutante si contiene al menos una secuencia rep
 # 100000 peticiones
 ![image](https://github.com/user-attachments/assets/c2bc982f-95e4-4fd9-84e0-d652d0468b97)
 
+## Diagrama de Secuencia
+
+# Operacion POST - post/mutant
+
+![image](https://github.com/user-attachments/assets/61ec8054-2889-4064-af03-e53112ec465e)
+
+# Operacion GET - getStats()
+
+![image](https://github.com/user-attachments/assets/7fa87fdd-109a-460c-be9c-096f7841c5f3)
+
+
 
 
    
