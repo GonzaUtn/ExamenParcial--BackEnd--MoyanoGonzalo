@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/f7b39931-b07a-414b-bbb4-68f42c89580d)
 # PARCIAL BACK END - Detección de Mutantes
 Alumno: Moyano Gonzalo    
 Legajo: 47600
@@ -93,6 +93,10 @@ Una secuencia de ADN se considera mutante si contiene al menos una secuencia rep
 
 # 1000 peticiones
 ![JMeter-1000peticiones](https://github.com/user-attachments/assets/1b913034-5b8e-482a-b3fb-d5a772381b46)
+
+# 100000 peticiones
+![image](https://github.com/user-attachments/assets/c2bc982f-95e4-4fd9-84e0-d652d0468b97)
+
 
 
    
